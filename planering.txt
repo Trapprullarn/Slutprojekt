@@ -1,8 +1,3 @@
-*	Idéer	*
-Memory
-Tic-Tac-Toe
-
-
 ************************************************************************
 
 Memory
@@ -23,3 +18,12 @@ Spelplan 4x4
 		Om man får ett par får man köra igen.
 	Combo counter??
 	
+************************************************************************
+
+Tidsplan
+
+vecka 16 - research
+vecka 17 - planering
+vecka 18 - kodning
+vecka 19 - kodning
+vecka 20 - kodning
