@@ -27,3 +27,7 @@ vecka 17 - planering
 vecka 18 - kodning
 vecka 19 - kodning
 vecka 20 - kodning
+
+
+
+http://tutorials.jenkov.com/javafx/your-first-javafx-application.html Länk för javafx
