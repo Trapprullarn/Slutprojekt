@@ -5,18 +5,18 @@ Memory
 Spelplan 4x4
 
 1- Prio
-	Knappar för att "vända" på brickor. Brickorna är alltså knappar.
-	Bilder eller färger på brickorna.
-	Vänder man 1 byter den state från "dormant" till "awake". ("placeholder namn")
+	*Knappar för att "vända" på brickor. Brickorna är alltså buttons.
+	*Bilder eller färger på brickorna.
+	*Vänder man 1 byter den state från "dormant" till "awake". ("placeholder namn")
 		(states som interfaces?)
-	Om det är två lika som är "awake" blir dem "bortvända" och ändrar state till "removed".
-	Om dem inte är lika vänds båda tillbaka till "dormant".
+	*Om det är två lika som är "awake" blir dem "bortvända" och ändrar state till "removed".
+	*Om dem inte är lika vänds båda tillbaka till "dormant".
 
 2- Bonus
-	2 spelare.
-		Alternerande turer. (person 1, person 2, person 1, person 2)
-		Om man får ett par får man köra igen.
-	Combo counter??
+	*2 spelare.
+		-Alternerande turer. (person 1, person 2, person 1, person 2)
+		-Om man får ett par får man köra igen.
+	*Combo counter??
 	
 ************************************************************************
 
