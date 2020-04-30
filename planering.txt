@@ -1,33 +1,50 @@
-************************************************************************
+		************************************************************************************
 
-Memory
+	Planering för memory
 
-Spelplan 4x4
 
-1- Prio
-	*Knappar för att "vända" på brickor. Brickorna är alltså buttons.
-	*Bilder eller färger på brickorna.
-	*Vänder man 1 byter den state från "dormant" till "awake". ("placeholder namn")
-		(states som interfaces?)
-	*Om det är två lika som är "awake" blir dem "bortvända" och ändrar state till "removed".
-	*Om dem inte är lika vänds båda tillbaka till "dormant".
+	*Prio*
+		Det visuella ska vara uppdelat i två delar. En spelplan och en "instrumentpanel"
 
-2- Bonus
-	*2 spelare.
-		-Alternerande turer. (person 1, person 2, person 1, person 2)
-		-Om man får ett par får man köra igen.
-	*Combo counter??
-	
-************************************************************************
+		Spelplanen ska vara 4x4, 16 brickor totalt.
+		Brickorna skall vara buttons som byter färg när dem blir klickade.
+		2 brickor med samma färg vänds bort.
+		Om man inte vänder 2 likadana vänds dem tillbaka.
 
-Tidsplan
-
-vecka 16 - research
-vecka 17 - planering
-vecka 18 - kodning
-vecka 19 - kodning
-vecka 20 - kodning
+		Instrumentpanelen ska ha en knapp som börjar om spelet.
+		
 
 
 
-http://tutorials.jenkov.com/javafx/your-first-javafx-application.html Länk för javafx
+	*Bonus*
+		Combo counter.
+		Multiplayer
+		Om jag skapar ett multiplayer mode så ska det finnas något som visar vems tur det är.
+		Om man vänder 2 brickor som är likadana så får man köra igen.
+
+		************************************************************************************
+
+
+	Utförande:
+		
+		För att skapa programmet behöver jag något sätt att kolla ifall brickorna är uppvända 
+		eller inte och ifall dem är likadana eller inte. Man kan använda en int för att göra detta.
+		*int state = 0* kan betyda att den är nervänd, *int state = 1* kan vara att den är uppvänd, 
+		*int state = 2* kan vara att den är bortvänd.
+
+		Man kan använda interfaces för att kolla om två uppvända brickor är likadana.
+		(ge 2 brickor samma interface och om båda är uppvända så *int state++* vilket isåfall
+		kommer att öka värdet på int state från 1 till 2 och kommer på så sätt vända bort brickorna.)
+		************************************************************************************
+
+	Tidsplan
+
+		vecka 16 - research
+		vecka 17 - planering
+		vecka 18 - kodning
+		vecka 19 - kodning
+		vecka 20 - kodning
+
+
+
+		http://tutorials.jenkov.com/javafx/your-first-javafx-application.html Länk för javafx
